@@ -6,6 +6,7 @@ import java.util.stream.Stream;
 
 public class FibonacciService implements NumberService {
     public BigInteger getValue(final int n) {
+        System.out.println("test");
         if(n<0){
             throw new IllegalArgumentException("Input number should be positive.");
         }
